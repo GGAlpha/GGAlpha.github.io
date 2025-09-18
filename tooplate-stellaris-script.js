@@ -181,7 +181,7 @@ https://www.tooplate.com/view/2140-stellaris-research
         // Form submission
         document.querySelector('.contact-form').addEventListener('submit', (e) => {
             e.preventDefault();
-            alert('Research proposal submitted! 🌌 (This is a demo)');
+            alert('Submitted successfully');
         });
 		
 		// Active menu highlighting based on scroll position
@@ -233,4 +233,5 @@ https://www.tooplate.com/view/2140-stellaris-research
             navLinks.forEach(l => l.classList.remove('active'));
             this.classList.add('active');
         });
+
     });
